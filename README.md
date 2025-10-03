@@ -1,5 +1,4 @@
-# Art of Arm Assembly Learnings & Code examples
-
+# Arm Asm snippets and examples
 
 ## commands, etc.
 
