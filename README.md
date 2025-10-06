@@ -18,6 +18,11 @@ lldb ./listing-1.2
 g++ -o listing1-examples listing1-examples.s
 ```
 
+Can use this if the listing file is pure C (e.g no `exter` "C"`) and avoid warnings
+```
+gcc -o listing1-5 ./listing1-5.c ./listing1-5.s
+```
+
 ## lldb commands
 
 ```
@@ -29,4 +34,6 @@ c
 
 // read reg x1 value
 read reg x1 
+
+reg read // read all registers
 ```
