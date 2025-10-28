@@ -36,4 +36,7 @@ c
 read reg x1 
 
 reg read // read all registers
+
+// exit
+q
 ```
